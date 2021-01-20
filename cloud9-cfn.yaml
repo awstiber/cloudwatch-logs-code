@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Cloud9 For Observability Workshop Aug,21,2020
+Description: Cloud9 For CloudTrail Log Monitoring Workshop Jan,20,2021
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
@@ -158,7 +158,7 @@ Resources:
   Cloud9Env:
     Type: AWS::Cloud9::EnvironmentEC2
     Properties:
-      Name: observabilityworkshop
+      Name: cloudtrail_log_monitoring_workshop
       Description: 'IDE Workshop'
       AutomaticStopTimeMinutes: !Ref C9StopTime
       InstanceType: !Ref C9InstanceType
